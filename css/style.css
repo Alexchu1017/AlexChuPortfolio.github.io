@@ -251,7 +251,7 @@ span {
   gap: 1rem;
   margin-top: 2rem;
 }
-.contact-box {
+.website-box {
   padding: 20px;
   width: 260px;
   display: flex;
@@ -264,33 +264,33 @@ span {
   transition: .3s;
   margin: 15px;
 }
-.contact-box:hover{
+.website-box:hover{
  background-color: #02225a;
  transform: scale(1.2);
  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
-.contact-box h3 {
+.website-box h3 {
   font-size: 1rem;
   font-weight: 600;
   margin: 0.7rem 0 0.4rem;
 }
-.contact-box:hover h3{
+.website-box:hover h3{
   color: #fff;
 }
-.contact-box .bx {
+.website-box .bx {
   padding-top: 2rem;
   font-size: 54px;
   color: var(--main-color);
 }
-.contact-box:hover .bx{
+.website-box:hover .bx{
   color: white;
 }
-.contact-box a {
+.website-box a {
   color: var(--main-color);
   font-size: var(--p-font);
   font-weight: 500;
 }
-.contact-box:hover a{
+.website-box:hover a{
   color: #8b8a8f;
 }
 .portfolio-content {
@@ -511,6 +511,7 @@ form textarea {
     margin-left: 25%;
   }
 }
+
 @keyframes transitionWebpage {
   from{
       opacity: 0;

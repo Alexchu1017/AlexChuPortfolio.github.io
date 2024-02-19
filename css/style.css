@@ -251,6 +251,7 @@ span {
   gap: 1rem;
   margin-top: 2rem;
 }
+
 .website-box {
   padding: 20px;
   width: 260px;
@@ -262,7 +263,7 @@ span {
   border-bottom: 2px solid var(--main-color);
   box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
   transition: .3s;
-  margin: 15px;
+  margin: 30px;
 }
 .website-box:hover{
  background-color: #02225a;
@@ -296,7 +297,7 @@ span {
 .portfolio-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, auto));
-  gap: 5rem;
+  gap: 1rem;
   margin-top: 2rem;
 }
 .portfolio-img {
